@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@font-face {
+    font-family: satisfyy;
+    src: url(assets/font/Satisfy/Satisfy-Regular.ttf);
+}
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #055142;
+    border-radius: 10px;
+    outline: black !important;
+  }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+/* navbar part start from here */
+.navbar a{
+    color: #000 !important;
+}
+.navbar a:hover{
+    color: #16161692 !important;
+}
+.navbar .nav-item:nth-child(6){
+    margin-right: 5rem !important;
+}
+.navbar img{
+    width: 200px;
+    height: 200px;
+}
+.navbar{
+    padding: 0 !important;
+}
+.navbar,.megamenu h6{
+    color: #045A49;
+    font-weight:900;
+}
+.dropdown-menu{
+    min-width: 35rem !important;
+    top: 37px !important;
+    left: -240px !important;
+}
+.has-megamenu:hover .dropdown-menu{
+    display: block !important;
+}
+.user-icon{
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+/* navbar part end from here */
+
+.bgimage{
+    position: absolute;
+    height: 102vh;
+    width: 100%;
+    background-image: url(assets/images/banner\ 1.jpg);
+    top: 0;
+    z-index: -9999;
+    background-attachment: fixed;
+}
+.bgimage2{
+    position: absolute;
+    height: 170vh !important;
+    width: 100%;
+    background-image: url(assets/images/banner.png);
+    top: 102vh;
+    z-index: -9999;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* hero part start from here */
+.hero{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .main-heading h1{
+    font-family: satisfyy;
+    font-size: 5vw;
+}
+.hero .main-heading h2{
+    font-size: 2.8vw;
+}
+.hero .main-heading p{
+    font-size: 1.5vw;
+    margin-top: 2rem;
+    line-height: 2;
+}
+/* hero part end from here */
+
+/* tranding part start from here */
+.trending{
+    text-align: center;
+    z-index: 111;
+    color: #fff;
+}
+
+.trending a{
+    text-decoration: none !important;
+    color: #045A49;
+}
+.trending img{
+    height: 262px;
+}
+.trending a:hover{
+    color: #045A49;
+}
+.trending .card{
+    box-shadow: #045a4964 0px 5px 15px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+.trending .card-img-top{
+    transition: 0.8s all;
+}
+.trending .card:hover .card-img-top{
+    transform: scale(1.1);
+}
+
+/* tranding part end from here */
+
+/* shortcut part start from here */
+.sukhcham
+{
+  padding: 12px;
+  overflow: hidden;
+}
+.sukhcham:hover img{
+    transform: scale(1.1) !important;
+}
+.sukhcham img
+{
+  border-radius: 50%;
+  display: inline-block;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  transition: 0.4s;
+}
+.sukhcham a
+{
+  color: #fff;
+  text-align: center;
+  text-decoration: none !important;
+}
+.sukhcham a:hover
+{
+    color: #fff;
+}
+/* shortcut part end from here */
+
+
+/* img part start from here */
+.order-discount{
+    color: #fff;
+}
+.order-discount .img-prt{
+    position: relative;
+}
+.order-discount .img-prt .pricing{
+    position: absolute;
+    background-color: #045a49c9;
+    text-align: center;
+    width: 50%;
+    height: 150px;
+}
+.pricing h2{
+    margin-top: 2rem;
+    color: #fff;
+}
+.pricing h1 , .pricing-2 h1{
+    color: #fff;
+}
+.order-discount .img-prt .pricing-2{
+    position: absolute;
+    background-color: #4c4945c7;
+    text-align: center;
+    width: 50%;
+    height: 150px;
+    right: 0;
+}
+.pricing-2 h2{
+    margin-top: 2rem;
+    color: #fff;
+}
+.img-prt img{
+    width: 50% !important;
+    height: 450px;
+    object-fit: cover;
+}
+#img-details{
+ display: flex;
+ justify-content: center;
+ margin-top: 2rem;
+}
+#img-details p{
+    margin-top: 3rem;
+    font-size: 1.3rem;
+}
+#img-details a{
+    color: #045A49;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.img-details h1{
+    font-weight: 300;
+}
+/* img part end from here */
+
+/* main course part start from here */
+.main-course{
+    overflow: hidden;
+}
+.main-course img{
+    width: 100%;  
+    height: 500px;  
+    cursor: pointer;
+}
+.main-course:hover .main-course img{
+    transform: scale(1.2);
+}
+.main-course h1{
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+    background-color: #045A49;
+    font-weight: 600;
+    cursor: pointer;
+}
+.main-course a{
+    color: #fff !important;
+    text-decoration: none !important;
+}
+/* main course part end from here */
+
+/* subscribe part start from here */
+.subscibe-mid,.subscibe-mid h5
+{
+ font-weight:600;
+ padding: 10px;
+ background-color:rgb(238, 236, 236) ;
+
+}
+.subscibe-mid-fm input
+{
+  outline: none;
+  border-style: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 30%;
+  padding: 5px;
+  margin-top: 10px;
+  display: inline;
+  align-items: center;
+  color: #0c0707;
+  font-weight: 500;
+}
+/* subscribe part end from here */
+
+/* food part start from here */
+.food
+{
+  border-style: none;
+  text-align: center;
+}
+.food a
+{
+  color: #045A49;
+  font-weight: 600;
+}
+.food a:hover{
+    color: #045A49 !important; 
+}
+.food-part img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover !important;
+    border-radius: 5px;
+}
+/* food part end from here */
+
+/* footer Part start from here */
+#footer{
+    background-color: #045A49;
+    color: #fff;
+}
+.about-section p{
+    text-align: justify;
+}
+.address-section i{
+    margin-right: 12px;
+}
+.social-media i{
+    font-size: 2.1rem;
+    margin-right: 1rem;
+}
+.social-media a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s !important;
+}
+.social-media a:hover:nth-child(2){
+    color: blue!important;
+}
+.social-media a:hover:nth-child(3){
+    color: #da3e3e !important;
+}
+.social-media a:hover:nth-child(4){
+    color: red !important;
+}
+/* footer Part end from here */

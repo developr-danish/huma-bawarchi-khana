@@ -1,0 +1,11 @@
+.about-page h1 , .family-page h1 .Background-page h1 , .about-page h1{
+    font-size: 3.7rem;
+    letter-spacing: -2px !important;
+}
+.about-page p , .family-page p , .Background-page p , .about-page p{
+    font-size: 20px;
+}
+span{
+    color: #045A49;
+    font-weight: 700;
+}

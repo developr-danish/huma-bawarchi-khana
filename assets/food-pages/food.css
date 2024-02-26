@@ -1,0 +1,103 @@
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #055142;
+    border-radius: 10px;
+    outline: black !important;
+  }
+
+/* navbar part start from here */
+.navbar a{
+    color: #000 !important;
+    font-weight: 700;
+}
+.navbar a:hover{
+    color: #16161692 !important;
+}
+.navbar .nav-item:nth-child(6){
+    margin-right: 5rem !important;
+}
+.navbar img{
+    width: 200px;
+    height: 200px;
+}
+.navbar{
+    padding: 0 !important;
+}
+.navbar,.megamenu h6{
+    color: #045A49;
+    font-weight:900;
+}
+.dropdown-menu{
+    min-width: 35rem !important;
+    top: 37px !important;
+    left: -240px !important;
+}
+.has-megamenu:hover .dropdown-menu{
+    display: block !important;
+}
+.user-icon{
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+/* navbar part end from here */
+
+
+/* dessert part start from here */
+
+.dishes img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.dishes a{
+    color: #045A49;
+}
+.dishes a:hover{
+    color: #045A49 !important;
+}
+/* dessert part end from here */
+
+
+
+/* footer Part start from here */
+#footer{
+    background-color: #045A49;
+    color: #fff;
+}
+.about-section p{
+    text-align: justify;
+}
+.address-section i{
+    margin-right: 12px;
+}
+.social-media i{
+    font-size: 2.1rem;
+    margin-right: 1rem;
+}
+.social-media a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s !important;
+}
+.social-media a:hover:nth-child(2){
+    color: blue!important;
+}
+.social-media a:hover:nth-child(3){
+    color: #da3e3e !important;
+}
+.social-media a:hover:nth-child(4){
+    color: red !important;
+}
+/* footer Part end from here */
